@@ -56,7 +56,7 @@ function Navbar() {
         ) : (
           <div>
             <NavLink
-              to="log-in"
+              to="login"
               className={({ isActive }) =>
                 isActive ? styles.activeStyle : styles.inActiveStyle
               }
@@ -65,7 +65,7 @@ function Navbar() {
             </NavLink>
 
             <NavLink
-              to="sign-up"
+              to="signup"
               className={({ isActive }) =>
                 isActive ? styles.activeStyle : styles.inActiveStyle
               }
