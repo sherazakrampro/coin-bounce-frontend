@@ -46,6 +46,7 @@ export const signout = async () => {
   return response;
 };
 
+// get all blogs method
 export const getAllBlogs = async () => {
   let response;
 
@@ -56,6 +57,7 @@ export const getAllBlogs = async () => {
   return response;
 };
 
+// submit blog method
 export const submitBlog = async (data) => {
   let response;
 
@@ -68,6 +70,7 @@ export const submitBlog = async (data) => {
   return response;
 };
 
+// get a blog by id method
 export const getBlogById = async (id) => {
   let response;
 
@@ -80,6 +83,7 @@ export const getBlogById = async (id) => {
   return response;
 };
 
+// get comments by id method
 export const getCommentsById = async (id) => {
   let response;
 
@@ -94,6 +98,7 @@ export const getCommentsById = async (id) => {
   return response;
 };
 
+// post a comment method
 export const postComment = async (data) => {
   let response;
 
@@ -105,6 +110,7 @@ export const postComment = async (data) => {
   return response;
 };
 
+// delete a blog method
 export const deleteBlog = async (id) => {
   let response;
   try {
@@ -116,6 +122,7 @@ export const deleteBlog = async (id) => {
   return response;
 };
 
+// update a blog method
 export const updateBlog = async (data) => {
   let response;
   try {
