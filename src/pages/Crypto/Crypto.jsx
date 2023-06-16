@@ -13,12 +13,12 @@ function Crypto() {
       setData(response);
     })();
 
-    // Cleanup
+    // cleanup function
     setData([]);
   }, []);
 
   if (data.length === 0) {
-    return <Loader text="crytocurrenices" />;
+    return <Loader text="" />;
   }
 
   const negativeStyle = {

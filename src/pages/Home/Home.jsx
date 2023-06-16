@@ -7,6 +7,7 @@ function Home() {
   const [articles, setArticles] = useState([]);
 
   useEffect(() => {
+    // IIFE: immediately invoked function expression
     (async function newsApiCall() {
       const response = await getNews();
       setArticles(response);
