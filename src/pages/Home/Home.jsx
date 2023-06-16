@@ -21,7 +21,7 @@ function Home() {
   };
 
   if (articles.length === 0) {
-    return <Loader text="homepage" />;
+    return <Loader text="" />;
   }
 
   return (
