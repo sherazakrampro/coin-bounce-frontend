@@ -57,7 +57,7 @@ export const getAllBlogs = async () => {
   return response;
 };
 
-// submit blog method
+// submit a blog method
 export const submitBlog = async (data) => {
   let response;
 
