@@ -68,7 +68,7 @@ function BlogDetails() {
   };
 
   if (blog.length === 0) {
-    return <Loader text="blog details" />;
+    return <Loader text="" />;
   }
 
   return (
@@ -84,7 +84,7 @@ function BlogDetails() {
           </p>
         </div>
         <div className={styles.photo}>
-          <img src={blog.photo} width={250} height={250} />
+          <img src={blog.photo} width={250} height={250} alt="img" />
         </div>
         <p className={styles.content}>{blog.content}</p>
         {ownsBlog && (
